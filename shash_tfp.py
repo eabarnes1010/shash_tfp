@@ -10,7 +10,7 @@ class Shash(tfp.distributions.SinhArcsinh):
 
     Shash is a wrapper subclass of the tfp.distributions.SinhArcsinh class.
     This wrapper fixes the engendering distribution to be Normal, and adds
-    methods for various distributional statisitcs that are not currently
+    methods for various distributional statistics that are not currently
     implemented in TensorFlow.
 
     Attributes
