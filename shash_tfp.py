@@ -233,7 +233,7 @@ class Shash(tfp.distributions.SinhArcsinh):
 
         return xi + eta * tf.math.sinh(epsilon / delta)
 
-    def skewness(self):
+    def skew(self):
         """The distribution skewness.
 
         Returns
